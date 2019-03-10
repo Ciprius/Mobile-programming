@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center">
+
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="Taken"
+              android:textSize="40sp"
+              android:layout_centerHorizontal="true"
+              android:textStyle="bold"
+              android:id="@+id/BuyProd"/>
+
+    <TextView android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:id="@+id/NameInsert"
+              android:layout_below="@+id/BuyProd"
+              android:gravity="center"
+              android:text="Name"
+              android:layout_marginTop="20sp"/>
+
+    <TextView android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_below="@+id/NameInsert"
+              android:text="Type"
+              android:gravity="center"
+              android:id="@+id/TypeInsert"
+              android:layout_marginTop="10sp"/>
+
+    <TextView android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_below="@+id/TypeInsert"
+              android:text="Power"
+              android:gravity="center"
+              android:id="@+id/PowerInsert"
+              android:layout_marginTop="10sp"/>
+
+    <TextView android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_below="@+id/PowerInsert"
+              android:text="Status"
+              android:gravity="center"
+              android:id="@+id/StatusInsert"
+              android:layout_marginTop="10sp"/>
+
+    <Button android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/StatusInsert"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10sp"
+            android:text="OK"
+            android:textStyle="bold"
+            android:id="@+id/OkBtn"/>
+
+</RelativeLayout>

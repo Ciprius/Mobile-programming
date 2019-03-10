@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Android</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title">Tanks and Projectiles</string>
+    <string name="BaseName">Base No.6 Afganistan</string>
+    <string name="addtank">Add Tank</string>
+    <string name="addproj"/>
+    <string name="addprojectile">Add Projectile</string>
+</resources>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center">
+
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="Name"
+              android:layout_centerHorizontal="true"
+              android:textSize="30sp"
+              android:textStyle="bold"
+              android:layout_marginTop="10sp"
+              android:id="@+id/NameTxtU"
+              android:layout_gravity="center"/>
+
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="Type:"
+              android:layout_below="@+id/NameTxtU"
+              android:layout_marginLeft="30sp"
+              android:layout_marginTop="10sp"
+              android:textStyle="bold"
+              android:textSize="15sp"
+              android:id="@+id/AlbumTxtClerk"
+              android:layout_marginStart="30sp"/>
+
+    <TextView
+            android:id="@+id/TypeTxtInsertU"
+            android:layout_width="100sp"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/AlbumTxtClerk"
+            android:layout_toRightOf="@id/AlbumTxtClerk"
+            android:layout_below="@id/NameTxtU"
+            android:textStyle="bold"
+            android:layout_marginTop="10sp"
+            android:textColor="@android:color/black"
+            android:layout_marginLeft="5sp"
+            android:layout_marginStart="5sp"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/TypeTxtInsertU"
+            android:layout_marginTop="10sp"
+            android:text="Power:"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:layout_marginStart="30sp"
+            android:layout_marginLeft="30sp"
+            android:id="@+id/GenreTextClerk"/>
+
+    <TextView
+            android:layout_width="100sp"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/GenreTextClerk"
+            android:layout_toRightOf="@id/GenreTextClerk"
+            android:layout_marginTop="10sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:layout_below="@id/TypeTxtInsertU"
+            android:id="@+id/PowerTxtInsertU"
+            android:layout_marginLeft="5sp"
+            android:layout_marginStart="5sp"/>
+
+    <Button android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10sp"
+            android:layout_toRightOf="@id/TypeTxtInsertU"
+            android:layout_below="@id/NameTxtU"
+            android:text="Take"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColorHighlight="@color/colorAccent"
+            android:id="@+id/TakeBtn"
+            android:layout_gravity="center"
+            android:layout_toEndOf="@id/TypeTxtInsertU"/>
+
+</RelativeLayout>
